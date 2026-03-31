@@ -1,0 +1,36 @@
+{
+  "slug": "nea",
+  "updatedAt": "2026-03-31T08:27:57.416Z",
+  "monitors": [
+    {
+      "name": "NEA — Homepage",
+      "url": "https://www.nea.gov.sg/",
+      "id": "509fb647-88e9-4580-b975-bfc4b150af50",
+      "error": null
+    },
+    {
+      "name": "NEA — E-Services",
+      "url": "https://www.nea.gov.sg/e-services",
+      "id": "67fdbe1c-a2a5-4678-9268-19fa3e417bc7",
+      "error": null
+    },
+    {
+      "name": "NEA — ePortal (Transactions)",
+      "url": "https://www.eportal.nea.gov.sg/",
+      "id": "da81ad74-b37a-4e69-bf66-08ed2e3d7c4c",
+      "error": null
+    },
+    {
+      "name": "NEA — Weather",
+      "url": "https://www.nea.gov.sg/our-services/weather",
+      "id": "b041a225-c428-4a1f-b368-37019f605b82",
+      "error": null
+    },
+    {
+      "name": "NEA — Dengue & Zika",
+      "url": "https://www.nea.gov.sg/our-services/dengue-zika",
+      "id": "e57997b5-d256-4efe-a9f1-f9031e0ba048",
+      "error": null
+    }
+  ]
+}

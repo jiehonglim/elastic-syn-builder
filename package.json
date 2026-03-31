@@ -1,0 +1,27 @@
+{
+  "name": "elastic-synth-journey-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude-assisted Elastic Synthetics journey generator for public-sector citizen/business journeys.",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "push-monitors": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "playwright test",
+    "lint": "eslint src --ext .ts",
+    "push": "SYNTHETICS_API_KEY=$SYNTHETICS_API_KEY npx @elastic/synthetics push --url $ELASTIC_KIBANA_URL"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.14.0",
+    "@elastic/synthetics": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0",
+    "eslint": "^9.0.0"
+  }
+}

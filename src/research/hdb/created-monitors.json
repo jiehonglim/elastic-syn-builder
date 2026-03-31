@@ -1,0 +1,36 @@
+{
+  "slug": "hdb",
+  "updatedAt": "2026-03-31T08:27:46.450Z",
+  "monitors": [
+    {
+      "name": "HDB — Homepage",
+      "url": "https://www.hdb.gov.sg/homepage",
+      "id": "fb6e3756-064f-47b5-8d3a-40f8fac42493",
+      "error": null
+    },
+    {
+      "name": "HDB — E-Services",
+      "url": "https://www.hdb.gov.sg/eservices",
+      "id": "3040931d-9f48-4ca2-b9db-5acfe2c35ec5",
+      "error": null
+    },
+    {
+      "name": "HDB — Buying a Flat",
+      "url": "https://www.hdb.gov.sg/buying-a-flat",
+      "id": "d0060a9c-8060-4bab-803c-fcffb639ee13",
+      "error": null
+    },
+    {
+      "name": "HDB — Renting a Flat",
+      "url": "https://www.hdb.gov.sg/renting-a-flat",
+      "id": "3cbba998-23c6-4932-862f-0c9a8e23f36b",
+      "error": null
+    },
+    {
+      "name": "HDB — Parking",
+      "url": "https://www.hdb.gov.sg/parking",
+      "id": "86b2f3af-8495-49cb-bf61-9e2966ae4e6d",
+      "error": null
+    }
+  ]
+}
