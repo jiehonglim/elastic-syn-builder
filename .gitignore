@@ -5,3 +5,4 @@ coverage
 playwright-report
 test-results
 src/research/**/created-monitors.json
+.claude/settings.local.json
