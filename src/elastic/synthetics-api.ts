@@ -18,7 +18,8 @@ interface KibanaLocation {
 
 function buildBody(config: HttpMonitorConfig) {
   const schedule = config.schedule ?? 60;
-  const locationIds = config.locations ?? ['singapore'];
+  const defaultLocation = process.env.ELASTIC_SYNTHETICS_LOCATION ?? 'us_east';
+  const locationIds = config.locations ?? [defaultLocation];
   const locations: KibanaLocation[] = locationIds.map(id => ({ id, isServiceManaged: true }));
   return {
     type: 'http',

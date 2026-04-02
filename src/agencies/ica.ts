@@ -1,10 +1,10 @@
 import type { HttpMonitorConfig } from '../elastic/synthetics-api';
 
-const tags = ['ica', 'public-sector'];
-const locations = ['singapore'];
+const tags = ['ica'];
+const locations = [process.env.ELASTIC_SYNTHETICS_LOCATION ?? 'us_east'];
 
 const monitors: HttpMonitorConfig[] = [
-  { name: 'ICA — Homepage',                  url: 'https://www.ica.gov.sg/',                               tags, locations },
+  { name: 'ICA — Main Homepage',                  url: 'https://www.ica.gov.sg/',                               tags, locations },
   { name: 'ICA — E-Services and Forms',      url: 'https://www.ica.gov.sg/eservicesandforms',              tags, locations },
   { name: 'ICA — Documents (IC & Passport)', url: 'https://www.ica.gov.sg/documents',                      tags, locations },
   { name: 'ICA — Enter, Transit and Depart', url: 'https://www.ica.gov.sg/enter-transit-depart',           tags, locations },
